@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 200px`
+    height: 200vh;
+    background-image: url(background_1.webp);
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+    height: 80vh;
+}
+
+.detel h1{
+    font-size: 75px;
+    color: #f30606;
+    margin-bottom: 20px;
+    text-shadow: 8px 8px 12px black;
+}
+
+.detel p{
+    font-size: 50px;
+    color: #020000;
+    line-height: 22px;
+    
+}
+
+span{
+    color: orange;
+}
+
+.image{
+    width: 45%;
+    height: 100vh;
+    position:absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+.image img{
+    height: 90vh;
+    bottom: 70px;
+    border-radius: 60%;
+    padding-left: 100px;
+}
+
+#ABOUT{
+    height: 80vh;
+    background-image: url(about\ background.jpg);
+    margin-top: -300px;
+}
+#ABOUT img{
+    margin-top: 350px;
+}
+
+#ABOUT h1 {
+    font-size: 100px;
+    width: 60vh;
+    padding: 20px;
+    color: #000;
+    text-shadow: 5px 5px 10px;
+    
+}
+
+#ABOUT p{
+    float: center;
+    font-size: 30px;
+    display: flex;
+    width: 75vh;
+    padding-right: 400px;
+}
+
+
+
+.logo {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.sec-des {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(194, 34, 34);
+    display: flex;
+    align-items: center;
+    padding: 9rem 7.5rem;
+    justify-content: space-between;
+}
+
+.sec-des-left {
+    width: 50ch;
+}
+
+.sec-des p {
+    line-height: 2;
+}
+
+h1 {
+    font-size: 3rem;
+    color: blue;
+}
+
+.sec-des img {
+    float:left;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.achievements{
+    margin-top:100px;
+    padding: 10rem 7rem;
+    background-image: url(graduation_background.jpg);
+    text-shadow: 5px 10px 15px black;
+}
+
+.achievements p{
+    color: #000;
+    font-size: 30px;
+    width: 85vh;
+    margin-left: 90px;
+}
+
+.achievements h1 {
+    color: rgb(209, 14, 31);
+    padding: 10px;
+    font-size: 90px;
+}
+
+.achievement img {
+    height: 50vh;
+    border-radius: 10%;
+    padding-left: 700px;
+    padding-top: 300px;
+}
+
+.contact {
+    padding: 9rem 7.5rem;
+    background-image: url(contact_image.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: -50px;
+}
+
+.contact > p {
+    color: rgb(22, 22, 22);
+    font-size: 25px;
+    line-height: 2;
+    text-shadow: 3px 3px 5px;
+}
+
+h2 {
+    font-size: 5rem;
+    align-items: center;
+    color: rgba(4, 0, 255, 0.658);
+    text-shadow: 5px 5px 10px black;
+}
